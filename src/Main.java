@@ -11,8 +11,6 @@ public class Main {
         calc.println.accept(c);
     }
 }
-//ошибка, т.к. функция devide принимает в качестве делителя результат функции minus равный нулю.
-//
 
 class Calculator {
     static Supplier<Calculator> instance = Calculator::new;
